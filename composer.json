@@ -1,0 +1,22 @@
+{
+    "name": "pablopoo/language-es_cl",
+    "version": "0.0.1",
+    "type": "magento2-language",
+    "description": "es_CL language package.",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/framework": "*",
+        "community-engineering/language-es_mx": ">=0.0.8"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
